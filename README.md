@@ -1,6 +1,6 @@
-# Google a Client for Java
+# Google Eventarc Publishing Client for Java
 
-Java idiomatic client for [a][product-docs].
+Java idiomatic client for [Eventarc Publishing][product-docs].
 
 [![Maven][maven-version-image]][maven-version-link]
 ![Stability][stability-image]
@@ -41,14 +41,14 @@ See the [Authentication][authentication] section in the base directory's README.
 
 ## Authorization
 
-The client application making API calls must be granted [authorization scopes][auth-scopes] required for the desired a APIs, and the authenticated principal must have the [IAM role(s)][predefined-iam-roles] required to access GCP resources using the a API calls.
+The client application making API calls must be granted [authorization scopes][auth-scopes] required for the desired Eventarc Publishing APIs, and the authenticated principal must have the [IAM role(s)][predefined-iam-roles] required to access GCP resources using the Eventarc Publishing API calls.
 
 ## Getting Started
 
 ### Prerequisites
 
-You will need a [Google Cloud Platform Console][developer-console] project with the a [API enabled][enable-api].
-You will need to [enable billing][enable-billing] to use Google a.
+You will need a [Google Cloud Platform Console][developer-console] project with the Eventarc Publishing [API enabled][enable-api].
+You will need to [enable billing][enable-billing] to use Google Eventarc Publishing.
 [Follow these instructions][create-project] to get your project set up. You will also need to set up the local development environment by
 [installing the Google Cloud SDK][cloud-sdk] and running the following commands in command line:
 `gcloud auth login` and `gcloud config set project [YOUR PROJECT ID]`.
@@ -58,13 +58,13 @@ You will need to [enable billing][enable-billing] to use Google a.
 You'll need to obtain the `google-cloud-evertarc-publishing` library.  See the [Quickstart](#quickstart) section
 to add `google-cloud-evertarc-publishing` as a dependency in your code.
 
-## About a
+## About Eventarc Publishing
 
 
-[a][product-docs] a
+[Eventarc Publishing][product-docs] lets you asynchronously deliver events from Google services, SaaS, and your own apps using loosely coupled services that react to state changes.
 
-See the [a client library docs][javadocs] to learn how to
-use this a Client Library.
+See the [Eventarc Publishing client library docs][javadocs] to learn how to
+use this Eventarc Publishing Client Library.
 
 
 
@@ -77,7 +77,7 @@ To get help, follow the instructions in the [shared Troubleshooting document][tr
 
 ## Transport
 
-a uses gRPC for the transport layer.
+Eventarc Publishing uses gRPC for the transport layer.
 
 ## Supported Java Versions
 
@@ -157,7 +157,7 @@ Java 11 | [![Kokoro CI][kokoro-badge-image-5]][kokoro-badge-link-5]
 
 Java is a registered trademark of Oracle and/or its affiliates.
 
-[product-docs]: a
+[product-docs]: https://cloud.google.com/eventarc/docs
 [javadocs]: https://googleapis.dev/java/google-cloud-evertarc-publishing/latest/index.html
 [kokoro-badge-image-1]: http://storage.googleapis.com/cloud-devrel-public/java/badges/java-evertarc-publishing/java7.svg
 [kokoro-badge-link-1]: http://storage.googleapis.com/cloud-devrel-public/java/badges/java-evertarc-publishing/java7.html

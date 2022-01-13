@@ -1,0 +1,6 @@
+# Format:
+# module:released-version:current-version
+
+google-cloud-evertarc-publishing:0.0.0:0.0.1-SNAPSHOT
+proto-google-cloud-evertarc-publishing-v1:0.0.0:0.0.1-SNAPSHOT
+grpc-google-cloud-evertarc-publishing-v1:0.0.0:0.0.1-SNAPSHOT
