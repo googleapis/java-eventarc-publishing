@@ -1,0 +1,16 @@
+{
+  "api_shortname": "evertarc-publishing",
+  "name_pretty": "a",
+  "product_documentation": "a",
+  "api_description": "a",
+  "client_documentation": "https://googleapis.dev/java/google-cloud-evertarc-publishing/latest/index.html",
+  "release_level": "preview",
+  "transport": "grpc",
+  "language": "java",
+  "repo": "googleapis/java-evertarc-publishing",
+  "repo_short": "java-evertarc-publishing",
+  "distribution_name": "com.google.cloud:google-cloud-evertarc-publishing",
+  "api_id": "evertarc-publishing.googleapis.com",
+  "library_type": "GAPIC_AUTO",
+  "requires_billing": true
+}
