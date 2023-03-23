@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/googleapis/java-eventarc-publishing/compare/v0.3.7...v0.4.0) (2023-03-23)
+
+
+### Features
+
+* Introduce the event publishing using JSON representation of CloudEvents ([#170](https://github.com/googleapis/java-eventarc-publishing/issues/170)) ([51e11e4](https://github.com/googleapis/java-eventarc-publishing/commit/51e11e47f0de34e401483cfb2674b6dae53742c0))
+
 ## [0.3.7](https://github.com/googleapis/java-eventarc-publishing/compare/v0.3.6...v0.3.7) (2022-10-05)
 
 
