@@ -1,6 +1,0 @@
-# Format:
-# module:released-version:current-version
-
-google-cloud-eventarc-publishing:0.3.7:0.3.8-SNAPSHOT
-proto-google-cloud-eventarc-publishing-v1:0.3.7:0.3.8-SNAPSHOT
-grpc-google-cloud-eventarc-publishing-v1:0.3.7:0.3.8-SNAPSHOT
